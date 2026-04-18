@@ -24,10 +24,14 @@ CV_HW2/
 │   ├─ test/
 │   ├─ train.json
 │   └─ valid.json
-├─ checkpoints_deformable_detr_baby/
+├─ checkpoints_deformable_detr/
 │   └─ best_model_by_map.pth
 ├─ cv-hw2-training.ipynb
 ├─ cv-hw2-inference.ipynb
 ├─ README.md
 └─ requirements.txt
 ```
+> Note: The dataset and trained checkpoint files are not included in this repository.
+> Please prepare the dataset according to the assignment structure before running the notebooks.
+> If you would like to run inference directly, place the trained model checkpoint at:
+`./checkpoints_deformable_detr_baby/best_model_by_map.pth`
