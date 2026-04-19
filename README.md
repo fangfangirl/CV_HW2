@@ -37,9 +37,7 @@ CV_HW2/
 > If you want to skip training and run inference directly, you can download the best trained model from the cloud:    
 > - **Best model:** [Put your cloud link here]
 > - After downloading, place the checkpoint file at: `./checkpoints_deformable_detr/best_model_by_map.pth`
-
-> After downloading, place the checkpoint file at: `./checkpoints_deformable_detr/best_model_by_map.pth`
-> - On a **local machine**, place the dataset in the same structure and update notebook file paths to match your directories.
+> On a **local machine**, place the dataset in the same structure and update notebook file paths to match your directories.
 
 ## Environment Setup
 
