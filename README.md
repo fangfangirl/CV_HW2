@@ -33,11 +33,12 @@ CV_HW2/
 ```
 > Note: he dataset and model files are not included in this repository.
 > Please download or prepare the dataset according to the structure above (e.g., by extracting the provided assignment package).
-> On a **local machine**, place the dataset in the same structure and update notebook file paths to match your directories.
 > Both the best mAP models can be trained from scratch using the provided notebooks.
 > If you want to skip training and run inference directly, you can download the best trained model from the cloud:    
 > - **Best model:** [Put your cloud link here]
 > - After downloading, place the checkpoint file at: `./checkpoints_deformable_detr/best_model_by_map.pth`
+
+> On a **local machine**, place the dataset in the same structure and update notebook file paths to match your directories.
 
 ## Environment Setup
 
@@ -81,3 +82,31 @@ pip install -r requirements.txt
 ## Usage
 
 ### Training
+
+1. Open and run `cv-hw2-training.ipynb` to train the object detection model.
+2. This notebook trains a Deformable DETR-based model with a ResNet-50 backbone on the training dataset.
+3. During training, the model is evaluated on the validation dataset using COCO-format metrics.
+4. The best checkpoint is saved based on validation performance (e.g., `best_model_by_map.pth`).
+
+### Inference
+
+- Open and run `cv-hw2-inference.ipynb` to generate predictions on the test dataset.
+- If you want to skip training, you can directly use the pretrained best model checkpoint.
+- Ensure the checkpoint file is placed in the directory specified in the notebook.
+- Make sure the dataset path and checkpoint path are correctly updated before execution.
+
+> Note: The trained checkpoint is required for inference.
+
+## Performance Snapshot
+
+The table below summarizes the model performance on the validation dataset.
+
+| Model             | Backbone  | Validation mAP | Validation mAP |
+|------------------|-----------|----------------| ----------------|
+| Deformable DETR  | ResNet-50 | 0.4624 | 0.35 |
+
+### Leaderboard / Final Results
+
+The screenshot below shows the final leaderboard / result for this project:
+
+![Result](result.png)
