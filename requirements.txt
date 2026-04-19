@@ -17,3 +17,4 @@ huggingface-hub
 safetensors
 tokenizers
 coco_eval
+timm
