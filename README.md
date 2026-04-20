@@ -44,8 +44,9 @@ CV_HW2/
 
 - Python 3.10+
 - GPU recommended (CUDA supported)
-- 
+
 This project was developed and tested on rtxgb10.
+
 For running this project on your local machine, follow the steps below.
 
 ### Step 0: Clone the Repository
