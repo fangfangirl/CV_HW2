@@ -29,6 +29,7 @@ CV_HW2/
 ├─ cv-hw2-training.ipynb
 ├─ cv-hw2-inference.ipynb
 ├─ README.md
+├─ pred.json
 └─ requirements.txt
 ```
 > Note: he dataset and model files are not included in this repository.
@@ -101,9 +102,10 @@ pip install -r requirements.txt
 
 ## Performance Snapshot
 
+The generated prediction file is stored in the cloud. You can download [`pred.json`](https://drive.google.com/file/d/1tNGEpXK-iZYgnHvPwtPL3892h5V3rmDD/view?usp=sharing) if needed.
 The table below summarizes the model performance on the validation dataset.
 
-| Model             | Backbone  | Validation mAP | Validation mAP |
+| Model             | Backbone  | Validation mAP | Test mAP |
 |------------------|-----------|----------------| ----------------|
 | Deformable DETR  | ResNet-50 | 0.4768 | 0.38 |
 
