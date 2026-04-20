@@ -105,7 +105,7 @@ The table below summarizes the model performance on the validation dataset.
 
 | Model             | Backbone  | Validation mAP | Validation mAP |
 |------------------|-----------|----------------| ----------------|
-| Deformable DETR  | ResNet-50 | 0.4624 | 0.35 |
+| Deformable DETR  | ResNet-50 | 0.4712 | 0.37 |
 
 ### Leaderboard / Final Results
 
