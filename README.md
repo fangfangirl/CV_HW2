@@ -112,5 +112,3 @@ The table below summarizes the model performance on the validation dataset.
 ### Leaderboard / Final Results
 
 The screenshot below shows the final leaderboard / result for this project:
-
-![Result](result.png)
