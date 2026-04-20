@@ -42,7 +42,7 @@ CV_HW2/
 
 ## Environment Setup
 
-- Python 3.10+
+- Python 3.11+
 - GPU recommended (CUDA supported)
 
 This project was developed and tested on rtxgb10.
@@ -59,7 +59,7 @@ cd CV_HW2
 
 ```bash
 # Create a conda environment
-conda create -n cv-hw2 python=3.10 -y
+conda create -n cv-hw2 python=3.11 -y
 
 # Activate environment
 conda activate cv-hw2
@@ -105,7 +105,7 @@ The table below summarizes the model performance on the validation dataset.
 
 | Model             | Backbone  | Validation mAP | Validation mAP |
 |------------------|-----------|----------------| ----------------|
-| Deformable DETR  | ResNet-50 | 0.4712 | 0.37 |
+| Deformable DETR  | ResNet-50 | 0.4768 | 0.38 |
 
 ### Leaderboard / Final Results
 
